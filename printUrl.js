@@ -4,6 +4,6 @@ const printUrlParts = (urlString) => {
     console.log( `hash: ${hash}`, `hostname: ${hostname}`, `host: ${host}`, `pathname: ${pathname}`, `protocol: ${protocol}` )
 }
 
-const url = 'https://www.youtube.com/watch?v=7PO6xdVhyuM'
+const url = 'http://dragonslayer:pwn3d@fantasyquest.com:8080/maps?sort=rank#id'
 
 printUrlParts(url)
